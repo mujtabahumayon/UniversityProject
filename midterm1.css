@@ -1,0 +1,120 @@
+body {
+	background-color: #c1dce9;
+	margin: 0;
+	padding: 0;
+	background-image: url("sanofibackground.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.iulogo {
+	text-align: center;
+	margin: 30px 0 0;
+	display: block;
+}
+
+#reg {
+	text-align: center;
+}
+
+#footer-image {
+	text-align: center;
+	padding-top: 5px;
+	margin: -200px -200px -200px;
+}
+
+.form1 {
+	background: white;
+	margin: 0 auto;
+	max-width: 360px;
+	padding: 45px;
+	text-align: center;
+	box-shadow: red;
+}
+
+.format1 input {
+	font-family: sans-serif;
+	background: #f2f2f2;
+	width: 100%;
+	border: none;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 12px;
+	margin: 0 0 15px;
+}
+
+.mrgn {
+	margin: 15px 15px 15px;
+}
+
+.form1 button {
+	font-family: sans-serif;
+	text-transform: uppercase;
+	background: #065784;
+	width: 100%;
+	border: none;
+	padding: 15px;
+	color: white;
+	font-size: 15px;
+	cursor: pointer;
+}
+/* Pseudo Selector */
+.form1 button:hover {
+	background: #7b8589;
+}
+
+button:hover {
+	border-color: blue;
+}
+
+a:visited {
+	color: rgb(199, 30, 148);
+}
+/* Attribute Selector */
+a[target] {
+	background-color: rgb(149, 202, 238);
+}
+/* Combinator Selectors */
+div p {
+	font-size: 18px;
+}
+
+h2 {
+	margin-left: 15px;
+}
+
+p {
+	margin-left: 15px;
+}
+
+table,
+th,
+td,
+tr {
+	text-align: center;
+	border: 1px solid black;
+	background-color: #d9d9d9;
+	border-collapse: collapse;
+}
+
+#tbl {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#info {
+	font: 14px Verdana;
+	margin: 50px 50px 50px;
+	text-align: left;
+}
+
+p input {
+	flex-basis: 48%;
+	display: flex; /*Enables data to move */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.opc {
+	background-color: rgba(0, 0, 0, 0.3);
+	color: white;
+}

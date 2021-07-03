@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Sanofi | Registeration Form</title>
+	<script src="midterm.js"></script>
+	<link rel="shortcut icon" href="circle.png" type="image/x-icon">
+
+	<link rel="stylesheet" type="text/css" href="midterm1.css">
+</head>
+
+<body>
+
+	<div class="iulogo">
+		<a href="http://www.sanofi.com"><img width="150px" src="logo.png" alt="Sanofi Logo"></a>
+	</div>
+
+	<h1 id="reg">Register:-</h1>
+
+	<form class="form1" name="myForm" onsubmit="return validateForm()" method="post">
+		<div class="format1">
+			<label for="FName">First Name</label>
+			<input id="FName" name="first" type="text" placeholder="Mujtaba">
+			<label for="LName">Last Name</label>
+			<input id="LName" name="last" type="text" placeholder="Humayon">
+
+			<div>
+				<label for="Fcell">Cell No.</label>
+				<input id="Fcell" type="text" name="Cellnumber" placeholder="+92 XXX-XXXXXXX">
+			</div>
+		</div>
+		<div class="mrgn">
+			<!-- for next line -->
+			<label for="male">Male</label>
+			<input name="gender" id="male" type="radio" value="male">
+
+			<label for="FOtheremale">Female</label>
+			<input name="gender" id="Female" type="radio" value="Female">
+
+			<label for="Other">Other</label>
+			<input name="gender" id="Other" type="radio" value="Other">
+		</div>
+
+		<div class="format1">
+			<!-- for next line -->
+			<label for="email">Email:</label>
+			<input id="email" name="email" type="email" placeholder="Your email">
+			<label for="password">Password:</label>
+			<input id="password" name="pass" type="password" placeholder="Your password">
+
+		</div>
+
+		<div class="format1">
+			<!-- for next line -->
+			<label>
+				Birthday:
+				<select name="month">
+					<option>Month</option>
+					<option>June</option>
+					<option>July</option>
+					<option>August</option>
+					<option>September</option>
+					<option>October</option>
+				</select>
+
+				<select name="day">
+					<option>Day</option>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+				</select>
+
+				<select name="year">
+					<option>Year</option>
+					<option>2020</option>
+					<option>2019</option>
+					<option>2018</option>
+					<option>2017</option>
+					<option>2016</option>
+				</select>
+			</label>
+		</div>
+
+		<div class="mrgn">
+			<label for="agreed">I agree to the terms and conditions</label>
+			<input id="agreed " type="checkbox" name="checkbox">
+		</div>
+
+
+		<button>Register</button>
+	</form>
+	<div class="opc">
+		<h2>Form's Purpose:</h2>
+	</div>
+
+	<div class="opc">
+		<P>This is a <strong>University Admission Form</strong>, This form is compulsary to fill in order to register
+			for <strong>2021 Spring Admissions</strong> . With this form we will get to know the bio of the student.</P>
+		<p>For more information visit: <a href="http://www.iulms.edu.pk">Iulms.edu.pk</a></p>
+		<h2>Reason behind using this form:-</h2>
+		<p>This is one of the most common forms that are used in various registeration websites. <br> These forms play
+			an important role in every registered website that is there on the web. <br> Hence I prefer using these
+			forms.
+		</p>
+	</div>
+
+	<div id="footer-image">
+		<img src="newstudents.png">
+	</div>
+
+
+	<table id="tbl">
+
+		<tr>
+			<th rowspan="2">Details</th>
+			<th colspan="2">Teams</th>
+			<td class="tophead" rowspan="6">National Stadium <br> Karachi</td>
+			<th rowspan="2">Umpire</th>
+		</tr>
+		<tr>
+			<th>Karachi Kings</th>
+			<th>Lahore Qalanders</th>
+		</tr>
+
+
+		<tr>
+			<td>Total Matches</td>
+			<td>20</td>
+			<td>20</td>
+
+			<td>Aleem Dar</td>
+		</tr>
+
+		<tr>
+			<td>Total Wins</td>
+			<td>12</td>
+			<td>8</td>
+			<td>Simon Taufel</td>
+		</tr>
+
+		<tr>
+			<td>Total Loss</td>
+			<td>8</td>
+			<td>12</td>
+			<td>Billy Bowden</td>
+		</tr>
+
+		<tr>
+			<td>Max Score</td>
+			<td>190</td>
+			<td>183</td>
+			<td>Rod Tucker</td>
+		</tr>
+
+
+	</table>
+
+	<p><input type="button" id="bt" value="Show Table Data" onclick="showTableData()"></p>
+	<div id="info"></div>
+
+
+</body>
+
+</html>
